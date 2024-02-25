@@ -36,5 +36,6 @@ const objeto = {
     }
 };
 objeto.direccion.calle = "Newell Road";
+objeto.nombre = "Varko";
 console.log(objeto);
 //# sourceMappingURL=index.js.map
