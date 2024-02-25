@@ -35,6 +35,6 @@ const objeto = {
         pais: 'Wakanda'
     }
 };
-objeto.nombre = "Varko";
+objeto.direccion.calle = "Newell Road";
 console.log(objeto);
 //# sourceMappingURL=index.js.map

@@ -119,6 +119,6 @@ const objeto: Persona = {
 };
 
 // objeto.id = 42; No se puede cambiar, ya que es readonly
-objeto.nombre = "Varko";
+objeto.direccion.calle = "Newell Road"
 
 console.log(objeto);
