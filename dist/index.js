@@ -31,11 +31,15 @@ const objeto = {
     talla: Talla.Mediana,
     direccion: {
         numero: 1,
-        calle: 'Siempre Viva',
-        pais: 'Wakanda'
-    }
+        calle: "Siempre Viva",
+        pais: "Wakanda",
+    },
 };
 objeto.direccion.calle = "Newell Road";
 objeto.nombre = "Varko";
 console.log(objeto);
+function suma(a, b) {
+    return a + b;
+}
+console.log(suma(3, 5));
 //# sourceMappingURL=index.js.map

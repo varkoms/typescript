@@ -95,17 +95,17 @@ const estado = LoadingState.Success;
 
 // Objetos en TS
 type Direccion = {
-  numero: number,
-  calle: string,
-  pais: string
-}
+  numero: number;
+  calle: string;
+  pais: string;
+};
 
 type Persona = {
   readonly id: number;
   nombre: string;
   talla: Talla;
-  direccion: Direccion
-}
+  direccion: Direccion;
+};
 
 const objeto: Persona = {
   id: 1,
@@ -113,13 +113,23 @@ const objeto: Persona = {
   talla: Talla.Mediana,
   direccion: {
     numero: 1,
-    calle: 'Siempre Viva',
-    pais: 'Wakanda'
-  }
+    calle: "Siempre Viva",
+    pais: "Wakanda",
+  },
 };
 
 // objeto.id = 42; No se puede cambiar, ya que es readonly
-objeto.direccion.calle = "Newell Road"
-objeto.nombre = "Varko"
+objeto.direccion.calle = "Newell Road";
+objeto.nombre = "Varko";
 
 console.log(objeto);
+
+/**
+ * @param a {number}
+ * @param b {number}
+ */
+function suma(a: number, b: number) {
+  return a + b;
+}
+
+console.log(suma(3, 5));
